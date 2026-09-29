@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visiting Card</title>
+
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            width: 450px;
+            height: 220px;
+            background-color: white;
+            margin: 100px auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px gray;
+
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .photo {
+            width: 130px;
+            height: 160px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .details {
+            text-align: left;
+        }
+
+        h1 {
+            color: darkblue;
+            margin-bottom: 5px;
+        }
+
+        h3 {
+            color: gray;
+            margin-top: 5px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .contact {
+            color: darkblue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <!-- Photo -->
+        <img src="photo.jpg" class="photo">
+
+        <!-- Details -->
+        <div class="details">
+            <h1>PUNEETH M</h1>
+            <h3>Computer Science Engineer</h3>
+
+            <p>
+                📞 +91 98765 43210<br>
+                ✉ puneeth@gmail.com<br>
+                📍 Mysuru, Karnataka
+            </p>
+
+            <p class="contact">
+                www.puneeth.com
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>

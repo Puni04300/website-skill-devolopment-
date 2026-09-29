@@ -1,0 +1,32 @@
+body {
+    background-color: darkseagreen;
+    font-family: 'Courier New', Courier, monospace;
+}    
+h1{
+ font-family:font-family "Share Tech", sans-serif;
+}
+
+.share-tech-regular {
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.heading{
+    margin-top: 200px;
+    padding:10px;
+    border:2px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    background: yellowgreen;
+    padding: 50px;
+}
